@@ -7,6 +7,7 @@ pfio.init();
 pfio.write(1,1);
 pfio.write(0,1);
 var webSockets = {}; //userID: webSocket
+console.log(“Nathan”);
 
 //Setup Logging
 logger.pipe(require('fs').createWriteStream('/tmp/server.log'));
